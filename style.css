@@ -1,0 +1,319 @@
+/* Browser Reset code start */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Browser Reset code end */
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 6.25rem;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+.row {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+/* 4 column style start here */
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span_4_of_4 {
+	width: 100%; 
+}
+
+.span_3_of_4 {
+	width: 74.6%; 
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+}
+
+.span_1_of_4 {
+	width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_4_of_4 {
+		width: 100%; 
+	}
+	.span_3_of_4 {
+		width: 100%; 
+	}
+	.span_2_of_4 {
+		width: 100%; 
+	}
+	.span_1_of_4 {
+		width: 100%; 
+	}
+}
+/* 4 column style End here */
+
+/* 3 column style Start here */
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
+/* 3 column style End here */
+
+/* 2 column style Start here */
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+}
+/* 2 column style End here */
+
+/* header section style start */
+header {
+    background: linear-gradient(rgba(136, 84, 208, 0.9), rgba(136, 84, 208, 0.9)), url(img/3d-student-graduation-cap-books-stack.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.nav {
+    padding: 6.25rem;
+    padding-bottom: 0;
+    padding-top: 2rem;
+    height: 5rem;
+    height: 5rem;
+    list-style: 5rem;
+}
+/* Full Screen navigation menu start*/
+.overlay a {
+    display: none;
+}
+/* Full Screen navigation menu end*/
+.nav a{
+    font-size: 2rem;
+    float: left;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.main-nav{
+    float: right;
+    display: flex;
+    margin-top: .2rem;
+}
+.open-nav {
+    display: none;
+}
+.main-nav li a{
+    font-size: 1.2rem;
+    color: dodgerblue;
+    padding: .5rem 1rem;
+    margin-left: .5rem;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .4s;
+}
+.main-nav li:hover a {
+    background: #6027b1;
+    border-radius: .3rem;
+    color: #fff;
+}
+.active-link {
+    background: #6027b1;
+    border-radius: .3rem;
+    color: #fff;
+}
+.hero-typed, .owl-carousel{
+    padding: 2rem 6.25rem;
+    margin: auto;
+    display: flex;
+}
+.hero-typed .greating{
+    width: 10rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    background: linear-gradient(45deg, #1B9CFC, #35007e);
+    padding-top: .1rem;
+    margin-top: -.1rem;
+    border-radius: 1.5rem;
+    padding: .5rem .8rem;
+}
+.hero-typed #element {
+    height: 2rem;
+    line-height: 2rem;
+    color: #35007e;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: .5rem;
+}
+marquee {
+    background: linear-gradient(45deg, #1B9CFC, #35007e);
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    color: #fff;
+    margin: 2rem 0;
+}
+/* header section style end */
+
+/* Teachers Section style Start */
+.teacher {
+    background: linear-gradient(rgba(24, 43, 97, 0.9), rgba(24, 43, 97, 0.9)), url(img/bg-teacher.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 2rem 0;
+}
+.teacher h1{
+    text-align: center;
+    color: #1B9CFC;
+    padding: 2rem 0;
+    height: 2rem;
+    line-height: 2rem;
+}
+.owl-carousel .box .techers-img {
+    width: 150px;
+    border-radius: 90%;
+    display: block;
+    margin: auto;
+}
+.owl-carousel .box{
+    margin-left: .9%;
+    color: #fff;
+    padding: 1rem 0;
+}
+.teacher .owl-carousel h4{
+    margin: 1.5rem 0 .4rem 0;
+    text-align: center;
+}
+.teacher .owl-carousel span {
+    margin-top: 1rem;
+    font-size: .8rem;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+/* Teachers Section style Start */
+
+/* footer section Style start */
+footer {
+    width: 100%;
+    background: #6027b1;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    display: table;
+    padding: 0 6.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+footer span {
+    float: left;
+}
+footer .footer-link {
+    float: right;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.footer-link a i{
+    font-size: 1.5rem;
+    padding: .5rem;
+    color: #fff;
+    transition: .3s;
+}
+.fa-youtube:hover {
+    color: #eb2f06;
+}
+.fa-facebook:hover {
+    color: #1B9CFC;
+}
+.fa-square-whatsapp:hover {
+    color: #05c46b;
+}
+.fa-telegram:hover {
+    color: #1B9CFC;
+}
+/* footer section Style end */
