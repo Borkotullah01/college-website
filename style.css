@@ -32,9 +32,6 @@ html{
 .row:after {
     clear:both;
 }
-.row {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
 
 /*  GRID COLUMN SETUP   ==================================================================== */
 
@@ -161,7 +158,7 @@ header {
     padding-top: 2rem;
     height: 5rem;
     height: 5rem;
-    list-style: 5rem;
+    list-style: none;
 }
 /* Full Screen navigation menu start*/
 .overlay a {
