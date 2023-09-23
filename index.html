@@ -51,7 +51,7 @@
           <div class="greating-box">
             <span class="greating">Wellcome to</span>
           </div>
-          
+          <span class="still-txt">Nowda-Azampur</span>
           <span id="element"></span>
         </div>
 
@@ -152,7 +152,7 @@ $(".logo").click(function(){
       // <== Sart Typed Js ==========================>>
 
       var typed = new Typed('#element', {
-          strings: [' Nowda-Azampur Technical And Bussiness Management College.'],
+          strings: ['Technical And Bussiness Management College.'],
           smartBackspace: true,
           typeSpeed: 30,
           backDelay: 2000,
@@ -165,10 +165,7 @@ $(".logo").click(function(){
       // <== Owl Carousel start ======================>>
 
       $(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
-      });
-
-      $('.owl-carousel').owlCarousel({
+        $('.owl-carousel').owlCarousel({
           loop:true,
           margin:10,
           nav:false,
@@ -180,14 +177,14 @@ $(".logo").click(function(){
                   items:1
               },
               600:{
-                  items:1
+                  items:2
               },
               1000:{
                   items:3
               }
           }
         })
-
+      });
       // <== Owl Carousel start ======================>>
     </script>
 
